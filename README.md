@@ -8,3 +8,7 @@ This is a simple image slider built using HTML, CSS, and JavaScript. It allows y
   - Clicking on the left and right arrow buttons.
   - Using the left and right arrow keys on your keyboard.
   - Pressing the delete key to remove the currently displayed image.
+
+## Live Demo
+
+You can try the live demo of this image slider here: [Image Slider Demo](https://great201.github.io/Image-Slider/)
