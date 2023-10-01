@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background: #444;
+}
+
+.slider {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  width: 100%;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.slider-feature {
+  text-align: center;
+}
+
+.slider-btn-right,
+.slider-btn-left {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 4rem;
+  color: #eee;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.delete-btn {
+  background: #ff0e0e;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  border: 1px solid #111;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.delete-btn:hover {
+  transform: scale(0.95);
+  background: #fff;
+  color: #ff0e0e;
+  border: 1px solid #ff0e0e;
+}
+
+.slider-btn-left:hover,
+.slider-btn-right:hover {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 1s;
+}
