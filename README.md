@@ -11,4 +11,4 @@ This is a simple image slider built using HTML, CSS, and JavaScript. It allows y
 
 ## Live Demo
 
-You can try the live demo of this image slider here: [Image Slider Demo](https://great201.github.io/Image-Slider/)
+You can try the live demo of this image slider here: [Image Slider Demo](https://great201.github.io/image-slider/)
